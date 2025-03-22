@@ -65,10 +65,10 @@ const Footer = () => {
               </div>
               <h1>Follow Us</h1>
               <div className="flex gap-4">
-                <Image src={Slogo1} width={10} height={10} alt="logo" />
-                <Image src={Slogo2} width={10} height={25} alt="logo" />
-                <Image src={Slogo3} width={10} height={25} alt="logo" />
-                <Image src={Slogo4} width={10} height={25} alt="logo" />
+                <Image className="cursor-pointer" src={Slogo1} width={0} height={0} alt="logo" />
+                <Image className="cursor-pointer" src={Slogo2} width={0} height={0} alt="logo" />
+                <Image className="cursor-pointer" src={Slogo3} width={0} height={0} alt="logo" />
+                <Image className="cursor-pointer" src={Slogo4} width={0} height={0} alt="logo" />
               </div>
             </div>
           </div>
